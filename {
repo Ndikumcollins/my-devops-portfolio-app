@@ -1,0 +1,105 @@
+Script started on 2025-09-06 02:46:07+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="94" LINES="49"]
+                    sh '''
+                        docker rm -f ${CONTAINER_NAME} || true
+                        docker run -d --name ${CONTAINER_NAME} -p 5000:5000 ${IMAGE_NAME}
+                    '''
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline finished.'
+        }
+    }
+}
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$                     sh '''
+[?2004l[?2004h>                         docker rm -f ${CONTAINER_NAME} || true
+[?2004l[?2004h>                         docker run -d --name ${CONTAINER_NAME} -p 5000:5000 ${IMAGE_NAME}
+[?2004l[?2004h>                     '''
+[?2004lsh: 0: cannot open 
+                        docker rm -f ${CONTAINER_NAME} || true
+                        docker run -d --name ${CONTAINER_NAME} -p 5000:5000 ${IMAGE_NAME}
+                    : No such file
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$                 }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$             }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$         }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$     }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$ 
+[?2004l[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$     post {
+[?2004lCommand 'post' not found, did you mean:
+  command 'port' from snap port (1.10.0)
+  command 'gost' from snap gost (2.12.0)
+  command 'mpost' from deb texlive-binaries (2023.20230311.66589-8build1)
+  command 'popt' from deb vienna-rna (2.5.1+dfsg-1)
+  command 'poet' from deb libpoet-perl (0.16-3)
+  command 'most' from deb most (5.2.0-1)
+  command 'ost' from deb openstructure (2.5.0-1build1)
+  command 'rpost' from deb suck (4.3.4-1build1)
+  command 'gost' from deb gost (0.1.2-2ubuntu0.24.04.3)
+  command 'psst' from deb psst (1.0-7)
+  command 'posh' from deb posh (0.14.1)
+  command 'epost' from deb ncbi-entrez-direct (19.2.20230331+dfsg-3ubuntu0.24.04.3)
+  command 'spost' from deb mmh (0.4-6)
+  command 'host' from deb bind9-host (1:9.18.30-0ubuntu0.24.04.2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$         always {
+[?2004lalways: command not found
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$             echo 'Pipeline finished.'
+[?2004lPipeline finished.
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$         }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$     }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$ }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$ git push
+[?2004lUsername for 'https://github.com': NDIKUMCI       dikumcollins
+Password for 'https://Ndikumcollins@github.com': 
+error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the ref 'refs/remotes/origin/main': unable to create directory for '.git/logs/refs/remotes/origin/main': No such file or directory
+Everything up-to-date
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$ git push
+[?2004lUsername for 'https://github.com': Ndikumcollins
+Password for 'https://Ndikumcollins@github.com': 
+error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the ref 'refs/remotes/origin/main': unable to create directory for '.git/logs/refs/remotes/origin/main': No such file or directory
+Everything up-to-date
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$ [?2004l
+exit
+
+Script done on 2025-09-06 03:05:38+01:00 [COMMAND_EXIT_CODE="0"]
+incho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$                 }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$             }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$         }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$     }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$ 
+[?2004l[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$     post {
+[?2004lCommand 'post' not found, did you mean:
+  command 'port' from snap port (1.10.0)
+  command 'gost' from snap gost (2.12.0)
+  command 'mpost' from deb texlive-binaries (2023.20230311.66589-8build1)
+  command 'popt' from deb vienna-rna (2.5.1+dfsg-1)
+  command 'poet' from deb libpoet-perl (0.16-3)
+  command 'most' from deb most (5.2.0-1)
+  command 'ost' from deb openstructure (2.5.0-1build1)
+  command 'rpost' from deb suck (4.3.4-1build1)
+  command 'gost' from deb gost (0.1.2-2ubuntu0.24.04.3)
+  command 'psst' from deb psst (1.0-7)
+  command 'posh' from deb posh (0.14.1)
+  command 'epost' from deb ncbi-entrez-direct (19.2.20230331+dfsg-3ubuntu0.24.04.3)
+  command 'spost' from deb mmh (0.4-6)
+  command 'host' from deb bind9-host (1:9.18.30-0ubuntu0.24.04.2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$         always {
+[?2004lalways: command not found
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfolio-app[01;32mcolincho99k@DESKTOP-1N2H4E4[00m:[01;34m~/projects/devops-portfolio-app[00m$             echo 'Pipeline finished.'
+[?2004lPipeline finished.
+[?2004h]0;colincho99k@DESKTOP-1N2H4E4: ~/projects/devops-portfoli
